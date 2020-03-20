@@ -1,0 +1,19 @@
+{
+  "name": "trailing-whitespaces",
+  "version": "1.0.0",
+  "description": "removes removes trailing whitespaces from your files ",
+  "main": "index.js",
+  "repository": "git@github.com:o175/trailing-whitespaces.git",
+  "author": "Wit <o175@ya.ru>",
+  "bin": {
+    "trailing-whitespaces": "index.js"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fast-glob": "^3.2.2",
+    "readline": "^1.3.0",
+    "remove-trailing-spaces": "^1.0.7",
+    "tmp": "^0.1.0"
+  }
+}
