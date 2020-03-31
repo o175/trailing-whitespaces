@@ -1,6 +1,6 @@
 {
   "name": "trailing-whitespaces",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "removes removes trailing whitespaces from your files ",
   "main": "index.js",
   "repository": "git@github.com:o175/trailing-whitespaces.git",
