@@ -6,6 +6,7 @@ const fs = require("fs");
 const tmp = require("tmp");
 const removeTrailingSpaces = require("remove-trailing-spaces");
 
+process.exit(0);
 const patterns = process.argv.slice(2);
 if (!patterns.length) {
   console.log("You should specify filenames or globs to process");
