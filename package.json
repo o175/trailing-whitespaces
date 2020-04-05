@@ -1,6 +1,6 @@
 {
   "name": "trailing-whitespaces",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "removes removes trailing whitespaces from your files ",
   "main": "index.js",
   "repository": "git@github.com:o175/trailing-whitespaces.git",
@@ -14,8 +14,8 @@
   "bin": {
     "trailing-whitespaces": "pkg/index.js"
   },
- "files": [
-      "pkg/**/*"
+  "files": [
+    "pkg/**/*"
   ],
   "license": "MIT",
   "private": false,
