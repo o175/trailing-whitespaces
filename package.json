@@ -5,15 +5,24 @@
   "main": "index.js",
   "repository": "git@github.com:o175/trailing-whitespaces.git",
   "author": "Wit <o175@ya.ru>",
+  "trailing-whitespaces": "pkg/index.js",
+  "scripts": {
+    "prepack": "tsc --project tsconfig.json",
+    "build": "tsc --project tsconfig.json",
+    "tsc": "tsc"
+  },
   "bin": {
-    "trailing-whitespaces": "index.js"
+    "trailing-whitespaces": "pkg/index.js"
   },
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@types/node": "^13.11.0",
+    "@types/tmp": "^0.1.0",
     "fast-glob": "^3.2.2",
     "readline": "^1.3.0",
     "remove-trailing-spaces": "^1.0.7",
-    "tmp": "^0.1.0"
+    "tmp": "^0.1.0",
+    "typescript": "^3.8.3"
   }
 }
