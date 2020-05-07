@@ -6,6 +6,7 @@
   "repository": "git@github.com:o175/trailing-whitespaces.git",
   "author": "Wit <o175@ya.ru>",
   "trailing-whitespaces": "pkg/index.js",
+  "keywords": ["whitespaces", "trim", "trailing"],
   "scripts": {
     "prepack": "tsc --project tsconfig.json",
     "build": "tsc --project tsconfig.json",
