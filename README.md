@@ -1,6 +1,12 @@
 # trailing-whitespaces
 removes trailing whitespaces from your files
 
+
+## Run once without installation:
+```
+npx trailing-whitespaces ./src/**/.js
+```
+
 ## Instalition:
 ```
 npm install trailing-whitespaces
